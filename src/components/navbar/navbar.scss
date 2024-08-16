@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .navbar {
     width: 105em;
     display: flex;
@@ -8,8 +10,10 @@
     z-index: 2;
 
 
-    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.859);
 
+    @include sm {
+        width: 100vw;
+    }
 
 
     .navContainer {
@@ -28,6 +32,11 @@
             color: white;
             font-weight: bold;
             scroll-behavior: smooth;
+        }
+
+        @include sm {
+            width: 90vw;
+            gap: 2em;
         }
     }
 }

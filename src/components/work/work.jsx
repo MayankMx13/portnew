@@ -11,7 +11,7 @@ function Work() {
                     <div className="card">
                         <img className='first' src="/5.png" alt="" />
                         <div className='desc'>
-                            <h2>project1</h2>
+                            <h2>Apex Estate</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
                         </div>
                         <div className="links">
@@ -26,7 +26,7 @@ function Work() {
                     <div className="card">
                         <img src="/1.png" alt="" />
                         <div className='desc'>
-                            <h2>Apex Estate</h2>
+                            <h2>Portfolio Template</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
                         </div>
                         <div className="links">
@@ -41,7 +41,7 @@ function Work() {
                     <div className="card">
                         <img src="/2.png" alt="" />
                         <div className='desc'>
-                            <h2>Portfolio Template</h2>
+                            <h2>Tesla.com</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
                         </div>
                         <div className="links">
@@ -56,7 +56,7 @@ function Work() {
                     <div className="card">
                         <img src="/3.png" alt="" />
                         <div className='desc'>
-                            <h2>Tesla.com</h2>
+                            <h2>Ayur Solutions</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
                         </div>
                         <div className="links">

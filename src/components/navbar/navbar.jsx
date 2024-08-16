@@ -2,6 +2,7 @@ import './navbar.scss'
 import { Link } from 'react-scroll';
 
 
+
 function Navbar() {
     return (
         <div className='navbar'>

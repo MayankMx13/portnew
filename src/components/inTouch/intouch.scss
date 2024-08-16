@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .intouch {
     width: 105em;
     background-color: rgba(22, 21, 19, 255);
@@ -14,6 +16,11 @@
         font-weight: bold;
         margin-top: 2em;
         text-align: center;
+
+        @include sm {
+            visibility: hidden;
+            ;
+        }
     }
 
 
@@ -44,6 +51,10 @@
 
             gap: 20px;
 
+            @include sm {
+                width: 80vw;
+            }
+
             .head {
                 font-size: 3em;
                 background: linear-gradient(to right, #b821e2, #e28a07);
@@ -56,6 +67,12 @@
             .p {
                 font-size: 1.5em;
 
+
+                @include sm {
+                    padding: 0px 20px;
+                    text-align: center;
+                }
+
             }
 
             .iconContainer {
@@ -64,6 +81,10 @@
                 justify-content: flex-start;
                 gap: 20px;
                 font-size: 1.5em;
+
+                @include sm {
+                    font-size: 1em;
+                }
             }
 
 
@@ -86,6 +107,10 @@
         .right {
             flex: 1.25;
 
+            @include sm {
+                margin-top: 40px;
+            }
+
 
             form {
                 display: flex;
@@ -97,6 +122,10 @@
 
                 gap: 15px;
 
+
+
+
+
                 input {
                     width: 100%;
                     border: none;
@@ -104,6 +133,10 @@
                     background-color: #32323c;
                     font-size: 1em;
                     color: white;
+
+                    @include sm {
+                        width: 20em;
+                    }
                 }
 
                 label {
@@ -120,6 +153,10 @@
                     padding: 1em;
                     color: white;
                     font-size: 1em;
+
+                    @include sm {
+                        width: 20em;
+                    }
                 }
 
                 button {
@@ -140,5 +177,20 @@
                 }
             }
         }
+
+
+
+        @include sm {
+            width: 90vw;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+    @include sm {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
     }
 }

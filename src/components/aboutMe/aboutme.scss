@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .aboutme {
     padding-top: 12em;
     display: flex;
@@ -87,6 +89,19 @@
             .bar5 {
                 width: 5em;
             }
+
+            @include sm {
+                width: 80vw;
+                padding-left: 20px;
+            }
         }
+
+        @include sm {
+            width: 90vw;
+        }
+    }
+
+    @include sm {
+        width: 100vw;
     }
 }

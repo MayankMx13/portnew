@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .hero {
     width: 105em;
     height: 30em;
@@ -5,9 +7,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "New Amsterdam", sans-serif;
     background-color: rgba(22, 21, 19, 255);
 
+    @include sm {
+        padding-top: 9em;
+    }
 
+    @include sm {
+        width: 100vw;
+
+    }
 
     .wrapper {
         display: flex;
@@ -20,9 +30,13 @@
 
         gap: 1em;
 
-        div {
+        .designation {
             font-size: 3em;
             font-weight: bolder;
+
+            @include sm {
+                font-size: 1.5em;
+            }
         }
 
         .name {
@@ -32,6 +46,10 @@
             background-clip: text;
             color: transparent;
             font-weight: bold;
+
+            @include sm {
+                font-size: 2em;
+            }
         }
 
         .things {
@@ -47,31 +65,53 @@
             align-items: center;
             justify-content: center;
             margin-top: 2em;
-
-
             gap: 2em;
 
+
+
+
             a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 color: white;
                 border: none;
-                font-size: 0.5em;
+                font-size: 1em;
                 border-radius: 9em;
                 background: linear-gradient(to right, #b821e2, #e28a07);
                 text-decoration: none;
+                height: 4em;
+                width: 9em;
 
                 &:hover {
                     border: 1px solid white;
                 }
 
 
+
+
             }
 
             .btn1 {
                 padding: 1em;
+                width: 11em;
+
+                @include sm {
+                    width: 120px;
+                    height: 30px;
+                    font-size: 15px;
+                }
+
             }
 
             .btn2 {
                 padding: 1em 2em;
+
+                @include sm {
+                    width: 80px;
+                    height: 30px;
+                    font-size: 15px;
+                }
             }
         }
 

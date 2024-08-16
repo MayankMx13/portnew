@@ -13,7 +13,7 @@ function Intouch() {
 
     return (
         <div className='intouch' id='contact'>
-            <h2>Get In Touch</h2>
+            <h2 className='heading'>Get In Touch</h2>
             <div className="wrapper">
 
 
