@@ -1,0 +1,79 @@
+.hero {
+    width: 105em;
+    height: 30em;
+    padding-top: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 21, 19, 255);
+
+
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        color: white;
+        width: 80em;
+
+        gap: 1em;
+
+        div {
+            font-size: 3em;
+            font-weight: bolder;
+        }
+
+        .name {
+            font-size: 4em;
+            background: linear-gradient(to right, #b821e2, #e28a07);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: bold;
+        }
+
+        .things {
+
+            font-size: 2em;
+
+        }
+
+
+        .buttons {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2em;
+
+
+            gap: 2em;
+
+            a {
+                color: white;
+                border: none;
+                font-size: 0.5em;
+                border-radius: 9em;
+                background: linear-gradient(to right, #b821e2, #e28a07);
+                text-decoration: none;
+
+                &:hover {
+                    border: 1px solid white;
+                }
+
+
+            }
+
+            .btn1 {
+                padding: 1em;
+            }
+
+            .btn2 {
+                padding: 1em 2em;
+            }
+        }
+
+    }
+}
