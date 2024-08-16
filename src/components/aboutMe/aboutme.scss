@@ -94,9 +94,18 @@
                 width: 80vw;
                 padding-left: 20px;
             }
+
+            @include md {
+                width: 80vw;
+                padding-left: 20px;
+            }
         }
 
         @include sm {
+            width: 90vw;
+        }
+
+        @include md {
             width: 90vw;
         }
     }
@@ -104,4 +113,9 @@
     @include sm {
         width: 100vw;
     }
+
+    @include md {
+        width: 100vw;
+    }
+
 }

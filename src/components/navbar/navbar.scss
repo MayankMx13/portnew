@@ -15,6 +15,9 @@
         width: 100vw;
     }
 
+    @include md {
+        width: 100vw;
+    }
 
     .navContainer {
         display: flex;
@@ -35,6 +38,11 @@
         }
 
         @include sm {
+            width: 90vw;
+            gap: 2em;
+        }
+
+        @include md {
             width: 90vw;
             gap: 2em;
         }
