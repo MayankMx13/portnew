@@ -90,6 +90,10 @@
                 width: 5em;
             }
 
+            .bar6 {
+                width: 4.5em;
+            }
+
             @include sm {
                 width: 80vw;
                 padding-left: 20px;

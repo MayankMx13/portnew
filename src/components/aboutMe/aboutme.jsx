@@ -24,6 +24,9 @@ function Aboutme() {
                     <div className="skill">
                         <span className='tag'>SASS</span> <span className='bars bar5'></span>
                     </div>
+                    <div className="skill">
+                        <span className='tag'>Tailwind CSS</span> <span className='bars bar6'></span>
+                    </div>
 
 
                 </div>

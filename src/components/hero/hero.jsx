@@ -19,12 +19,6 @@ function Hero() {
             typed.destroy();
         };
     }, []);
-
-
-
-
-
-
     return (
         <div className='hero' id='hero'>
             <div className="wrapper">
@@ -39,11 +33,12 @@ function Hero() {
                     <a href="https://www.linkedin.com/in/mayank-mishra-sde/" target='_blank' className='btn1' >Connect with me</a>
                     <a
                         className='btn2'
-                        href="/Mayank_MIshra_SDE.pdf"
+                        href="/Mayank_mishra_SDE.pdf"
                         download="Mayank_mishra_SDE"
                     >Resume
                     </a>
                 </div>
+
             </div>
 
 

@@ -12,7 +12,7 @@ function Work() {
                         <img className='first' src="/5.png" alt="" />
                         <div className='desc'>
                             <h2>Apex Estate</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
+                            <p>React.js,SCSS,Node.js,Express.js,Cloudinary</p>
                         </div>
                         <div className="links">
                             <a href="">
@@ -27,7 +27,7 @@ function Work() {
                         <img src="/1.png" alt="" />
                         <div className='desc'>
                             <h2>Portfolio Template</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
+                            <p>React.js ,SCSS ,Json-server,Node.js,Express.js</p>
                         </div>
                         <div className="links">
                             <a href="https://github.com/MayankMx13/joshassmt">
@@ -39,10 +39,40 @@ function Work() {
                         </div>
                     </div>
                     <div className="card">
+                        <img src="/ochi.png" alt="" />
+                        <div className='desc'>
+                            <h2>Ochi</h2>
+                            <p>React.js , Locomotive , GSAP , Tailwind CSS</p>
+                        </div>
+                        <div className="links">
+                            <a href="https://github.com/MayankMx13/Animation-web">
+                                <FaGithub className='icon' />
+                            </a>
+                            <a href="https://animation-web-eight.vercel.app/">
+                                <FaExternalLinkAlt className="icon" />
+                            </a>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src="/blogger.png" alt="" />
+                        <div className='desc'>
+                            <h2>Blogger</h2>
+                            <p>React.js , Tailwind CSS ,Express.js , Node.js </p>
+                        </div>
+                        <div className="links">
+                            <a href="https://github.com/MayankMx13/blogger">
+                                <FaGithub className='icon' />
+                            </a>
+                            <a href="https://blogger-hazel-six.vercel.app/">
+                                <FaExternalLinkAlt className="icon" />
+                            </a>
+                        </div>
+                    </div>
+                    <div className="card">
                         <img src="/2.png" alt="" />
                         <div className='desc'>
                             <h2>Tesla.com</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
+                            <p>HTML ,CSS .JavaScript</p>
                         </div>
                         <div className="links">
                             <a href="https://github.com/MayankMx13/tesla-clonee">
@@ -57,7 +87,7 @@ function Work() {
                         <img src="/3.png" alt="" />
                         <div className='desc'>
                             <h2>Ayur Solutions</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
+                            <p>HTML ,CSS ,JavaScript ,Node.js, Flask ,Python</p>
                         </div>
                         <div className="links">
                             <a href="https://github.com/MayankMx13/AyurSolutions">
@@ -72,7 +102,7 @@ function Work() {
                         <img src="/4.png" alt="" />
                         <div className='desc'>
                             <h2>Shoe Shop</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos quasi repudiandae, repellendus, distinctio ipsum expedita illum rerum obcaecati cumque est, commodi id.</p>
+                            <p>HTML,CSS,Javascript</p>
                         </div>
                         <div className="links">
                             <a href="https://github.com/MayankMx13/Shoes-Websit">
