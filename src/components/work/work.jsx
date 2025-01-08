@@ -63,7 +63,7 @@ function Work() {
                             <a href="https://github.com/MayankMx13/blogger">
                                 <FaGithub className='icon' />
                             </a>
-                            <a href="https://blogger-hazel-six.vercel.app/">
+                            <a href="https://bloggers-teal.vercel.app/">
                                 <FaExternalLinkAlt className="icon" />
                             </a>
                         </div>
